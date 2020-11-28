@@ -1,0 +1,332 @@
+body{
+    margin: 0px;
+    padding: 0px
+}
+header{
+    width: 100%;
+    background-image: url(images/backgrounds/1.jpg);
+    background-size: cover;
+    overflow: hidden;
+    padding: 60px 0px;
+}
+header .headerr{
+    width: 40%;
+    float: right;    
+}
+header .headerr .headerrimg{
+    width: 50%;
+    margin: auto;
+    
+}
+header .headerr .headerrimg img{
+    width: 100%
+}
+header .headerr h1{
+text-align: right;
+    color: white;
+    font-size: 44px;
+    width: 50%;
+    margin: auto;
+}
+header .headerr h1 span{
+    color: aqua;
+}
+header .headerr .btn{
+ width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+header .headerr button{
+    width: 40%;
+    float: right;
+    padding: 10px;
+    font-size: 20;
+    border: 0px;
+}
+header .headerr .btn button:first-of-type{
+    color: grey;
+}
+header .headerr .btn button:last-of-type{
+    margin-right: 5%;
+    color: white;
+    background-color: aqua;
+}
+/**********center*******************/
+.center{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 50px;
+    padding: 70px 0px;
+    margin-top: -35px;
+    background-color: #faf8f8; 
+    border-radius: 15px;
+}
+.center .center1{
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+}
+.center .center1 img{
+    width: 25%;
+    margin: auto;
+}
+.center .center1 h1{
+    color: #154270;
+    font-family: system-ui;    
+}
+.center .center1 p{
+    font-size: 21px;
+}
+.center .center1:nth-of-type(2){
+    margin: 0% 12%; 
+}
+/**************sec***************************/
+.sec{
+    width: 85%;
+    margin:100px auto;
+    overflow: hidden;
+}
+.sec .secimg{
+    width: 45%;
+    float: left;
+}
+.sec .secimg img{
+    width: 100%;
+    height: 500px;
+}
+/****secr**/
+.sec .secr{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.sec .secr>span{
+    font-size: 25px;
+    color: grey;
+}
+.sec .secr h1{
+font-size: 42px;
+    color: #154270;
+}
+.sec .secr p{
+    font-size: 22px;
+}
+/********/
+.secr .in{
+    width: 100%;
+    margin-top: 50px;
+}
+.secr .in h1{
+    font-size: 37px;
+    color: #154270;
+}
+.secr .inr{
+    width: 45%;
+    display: inline-block;
+}
+.secr .inr .inr1{
+    width: 100%;
+    margin: 10px 0px; 
+}
+.secr .in .inr .inr1 span{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    color: grey;
+}
+.secr .in .inr .inr1 span i{
+    margin-left: 4%;
+    color: aqua;
+}
+/**********help*****************/
+.help{
+    width: 80%;
+    background-image: url(images/backgrounds/footer-bg-map.jpg);
+    background-size: cover;
+    padding:2% 10%; 
+    overflow: hidden;
+}
+.help >h3{ 
+    text-align: right;
+    font-size: 30px;
+    color: white;
+}
+.help >h1{ 
+    text-align: right;    
+    font-size: 35px;
+    color: white;
+    margin-bottom: 70px;
+}
+.help .help1{ 
+    text-align: center;
+    width: 25%;
+    float: left;
+    color: white;
+    margin-bottom: 60px;
+}
+.help .help1:nth-of-type(2){ 
+    margin-right: 12%;
+    margin-left: 12%;
+}
+.help .help1:nth-of-type(5){ 
+    margin-right: 12%;
+    margin-left: 12%;
+}
+.help .help1:nth-of-type(3){ 
+    margin-right: 0%;
+}
+.help .help1:nth-of-type(6){ 
+    margin-right: 0%;
+}
+.help .help1 img{  
+    display: block;
+    width: 25%;
+    margin: auto;
+}
+.help .help1 h1{ 
+    font-size: 33px;   
+}
+.help .help1 p{ 
+    font-size: 22px;
+}
+/*********opinion**********/
+.opinion{
+    width: 90%;
+    padding: 1% 5%;
+    margin: 50px 0px;
+    overflow: hidden;
+}
+.opinion>h1{
+    margin-bottom: 40px;
+    text-align: right;
+}
+.opinion .parent{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.op1{
+    width: 35%;
+    overflow: hidden;
+}
+.op1:nth-of-type(1){
+    float: right;
+}
+.op1:nth-of-type(2){
+   float: left;
+}
+.op1 .text{
+    box-shadow: 0px 0px 5px black;
+    padding: 20px;
+    background-color: grey;
+    position: relative;
+}
+.op1 .text::before{
+    content: "";
+    position: absolute;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-top: 30px solid grey;
+    bottom: -18%;
+    right: 6%;    
+}
+.op1 .text p{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-family: system-ui;
+}
+.op1 .img{
+    width: 25%;
+    float: right;
+    margin-top: 30px;
+}
+.op1 .img img{
+    width: 100%;
+    border-radius: 50%;
+}
+/***********contact**********/
+.contact{
+    width: 70%;
+    margin: auto;
+    padding:3% 15% ;
+    text-align: right;  
+    background-image: url(images/backgrounds/footer-bg-map.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.contact h1{
+    color: white;
+    font-size: 45px;
+}
+.contact form{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.contact form input{
+    display: block;
+    float: right;
+    width: 51%;
+    height: 60;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline-style: none;
+    margin-top: 8px;
+    text-align: right;
+    font-size: 20px;
+    padding: 5px;
+}
+.contact form input:nth-of-type(1){
+    margin-top: 0px;
+}
+.contact form textarea{
+    width:48%;
+    padding: 5px;
+    font-size: 20px;    
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline-style: none;    
+    margin-right: 1%;
+    text-align: right;
+    
+    float: left;
+    margin-top: -130;    
+}
+.contact form button{
+    width: 100%;
+    padding:1% 0%;
+    outline-style: none;
+    background-color: aqua;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 27px;
+    margin-top: 20px;
+}
+/*********low********/
+.low{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    padding: 1px 0px;
+}
+.low p{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,192 @@
+/****************mobile*********/
+@media(max-width:980px){
+.col-xs-12{
+width:100%;
+}
+.col-xs-6{
+width:50%;
+float:right;
+}
+.col-xs-4{
+width:33%;
+float:right;
+}
+.col-xs-3{
+width:25%;
+float:right;
+}
+    header .headerr{
+        float: none;
+        width: 80%;
+        margin: auto;    
+    }
+    header .headerr h1 {
+        font-size: 73px;
+    }
+    header .headerr .btn{
+        margin-top: 50px;
+    }
+    header .headerr .btn button {
+        width: 100%;
+        font-size: 45px;
+        font-weight: 600;
+        margin: auto;   
+        margin-bottom: 30px;
+    }
+    header .headerr .btn button:last-of-type{        margin-right: 0%;
+    }
+/*********center*****/
+    .center .center1:nth-of-type(2) {
+        margin: 0% auto;
+        margin-bottom: 90px;
+    }
+    .center .center1 {
+        width: 50%;
+        margin: auto;
+        margin-bottom:90px;
+        float: none;
+        display: block;
+    }
+    .center .center1 img {
+        width: 36%;
+    }
+    .center .center1 h1 {
+        font-size: 65px;
+    font-weight: 600;
+
+    }
+    .center .center1 p {
+        font-size: 74px;   
+    }
+    .sec{
+        width: 100%;
+    }
+    .sec .secimg{
+        width: 100%;
+        float: none;
+    }
+    .sec .secimg{
+        height: 600px;
+    }
+    .sec .secr{
+        width: 80%;
+        margin: auto;
+        float: none
+    }
+    .sec .secr>span {
+        font-size:80px;
+    }
+    .sec .secr h1 {
+        font-size: 82px;
+    }
+    .sec .secr p {
+        font-size: 72px;
+    }
+    .secr .in h1 {
+        font-size: 90px;
+    }
+    .secr .in .inr{
+        width: 100%;
+    }
+    .secr .in .inr .inr1{
+        width: 80%;
+        margin-bottom: 20px;
+        float: right;
+    }    
+    .secr .in .inr .inr1 span {
+        font-size: 68px;
+        font-weight: 600;
+    }
+/**********help*******/
+    .help >h3 {
+        font-size: 62px;
+    }
+    .help >h1 {
+        font-size: 70px;
+    }
+    .help .help1:nth-of-type(2) {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .help .help1:nth-of-type(4) {
+        margin-right: 0%;
+        margin-left: 00%;
+    }
+    .help .help1:nth-of-type(5) {
+        margin-right: 0%;
+        margin-left: 0%;
+    }    
+    .help .help1:nth-of-type(6) {
+        margin-right: 0%;
+        margin-left: 0%;
+    }    
+    .help .help1 {
+        width: 100%;
+    }  
+    .help .help1 img {
+        width: 33%;
+    }
+    .help .help1 h1 {
+        font-size: 75px;
+    }
+    .help .help1 p {
+        font-size: 65px;
+    }    
+/***********opinion*******/    
+    .opinion>h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+    .op1 {
+        margin-bottom: 40px;
+    }
+    .op1:nth-of-type(1) {
+        float: none;
+    }
+    .op1:nth-of-type(2) {
+        float: none;
+    }
+    .op1 .img{
+        float: none;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .op1 .text p {
+        font-size: 55px;
+    }
+    .op1 .text::before {
+        bottom: -12%;
+        right: 45%;
+    }
+/*********contact********/
+    .contact h1 {
+        font-size: 61px;
+    } 
+    .contact form input {
+        float: none;
+        width: 100%;
+        font-size: 32px;
+    }
+    .contact form textarea {
+        width: 100%;
+        font-size: 32px;
+        clear: both;
+        margin-top: 15px;
+    }
+    .contact form button{
+        font-size: 50px;
+    }
+    .low p {
+        font-size: 42px;   
+    }
+}
+/********tablet******/
+
+
+
+
+
+
+
+
+
